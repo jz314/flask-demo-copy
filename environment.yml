@@ -1,0 +1,6 @@
+name: flask-demo-stocks
+dependencies:
+  - scipy
+  - numpy
+  - pandas
+  - bokeh
