@@ -1,4 +1,7 @@
 <!doctype html>
+
+
+<!--copied from example by view source -->
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -10,6 +13,42 @@
 	<body>
 		<div>
   			<h1>Hello, Fartface!</h1>
+		</div>
+	</body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Stock Closing Prices</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!--<link rel=stylesheet type=text/css href='/static/style.css'>-->
+	</head>
+	<body>
+		<div class=page>
+  			<h1>User Input</h1>
+  			<div class=metanav>
+
+    			<h4>Please enter a stock ticker eg. GOOG, and check desired features.</h4>
+
+    			<form id='input' method='post' action='index'>	
+	  			<p>
+					Ticker symbol: <input type='text' name='ticker' />
+	  			</p>
+	  			<p>
+<!--					<input type="checkbox" name='features' value='Close'>Closing price<br>
+					<input type="checkbox" name='features' value='Adj. Close'>Adjusted closing price<br> 
+					<input type="checkbox" name='features' value='Open'>Opening price<br>
+					<input type="checkbox" name='features' value='Adj. Open'>Adjusted opening price<br> -->
+	    			<input type="submit" value="Submit">
+	  			</p>
+				</form>
+
+  			</div>
 		</div>
 	</body>
 </html>
