@@ -27,9 +27,9 @@ def index():
 		else:
 			df=v2_json_to_dataframe(str(app.vars['ticker']),requestedjson)#put into pandas df
 			makeplot(df)
-			return redirect('/static_from_root')
+#			return redirect('/static_from_root')
 #			return redirect(url_for('static',filename='plot.html'))
-#			return render_template('plot.html')
+			return render_template('plot.html')
 
 @app.route('/static_from_root')
 def static_from_root(): 
