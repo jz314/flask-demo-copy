@@ -8,6 +8,5 @@ matplotlib==1.4.3
 oauth==1.0.1
 oauthlib==1.0.1
 python-dateutil==2.5.1
-seaborn==0.6.0
 simplejson==3.8.0
 requests==2.7.0

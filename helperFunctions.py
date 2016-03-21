@@ -7,7 +7,6 @@ from requests import get
 import json
 import simplejson as json
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.pylab
 from bokeh import mpl
@@ -45,7 +44,6 @@ def v2_json_to_dataframe(ticker,jsonInput):
 
 def makeplot(dataframe):
 	plt.figure(figsize=(11,8))
-	sns.set(style="darkgrid")
 	dataframe.plot()#df plot function
 #	ax.legend(bbox_to_anchor=(1,1),bbox_transform=plt.gcf().transFigure)    
 	plt.legend(fontsize=20,bbox_to_anchor=(1.05,1),loc=2)
