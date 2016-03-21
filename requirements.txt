@@ -5,3 +5,4 @@ heroku==0.1.4
 oauth==1.0.1
 oauthlib==1.0.1
 python-dateutil==2.5.1
+Flask==0.10.1
